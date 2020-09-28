@@ -98,37 +98,42 @@ video {
 header {
   width: 100%;
   padding: 2rem;
-  border: 2px solid black;
+  /* border: 2px solid red; */
   position: fixed;
   top: 0;
+  background-color: blue;
+  opacity: 0.8;
 }
 
 header h1 {
-  border: 2px solid black;
+  /* border: 2px solid red; */
   text-align: center;
+  font-size: 1.4rem;
 }
 
 body {
   width: 100%;
   height: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .bodyHeader {
   width: 100%;
   padding: 11.8%;
-  border: 4px solid black;
+  /* border: 5px solid green; */
+  background-color: yellow;
 }
 
 .bodyHeader p {
-  border: 2px solid black;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   padding: 3rem;
+  font-size: 3rem;
 }
 
 .headerNav {
-  border: 2px solid black;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: flex-end;
   width: 83%;
@@ -136,61 +141,118 @@ body {
 }
 
 ul {
-  border: 2px solid black;
+  /* border: 2px dotted black; */
+  width: 5rem;
+  height: 5rem;
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 ul a {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  font-size: 1.5rem;
   list-style-type: none;
+  color: blue;
 }
 
 .registration {
   width: 100%;
   height: 55rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
 }
 
 .registration .image {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 50%;
   height: 100%;
 }
 
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
 .registration .form {
-  border: 2px solid red;
+  /* border: 2px solid green; */
   width: 50%;
   height: 100%;
+  background-color: blue;
+}
+
+.form p {
+  /* border: 2px solid black; */
+  width: 87%;
+  margin-left: 10%;
+
+  font-size: 1.6rem;
+}
+
+.form input {
+  width: 80%;
+  margin: 1rem;
+  margin-left: 10%;
+  padding: 0.3rem;
+}
+
+.formHeader {
+  /* border: 2px solid red; */
+  padding: 1.6rem;
+}
+
+.formHeader p {
+  /* border: 2px solid yellow; */
+  width: 90%;
+  margin-left: 4%;
+  font-size: 2rem;
+  color: white;
+}
+
+.formInput {
+  /* border: 2px solid blue; */
+  margin: 2rem;
+  margin-left: 0%;
+}
+
+.button {
+  /* border: 2px solid red; */
+  text-align: center;
 }
 
 footer {
   width: 100%;
   padding: 2rem;
-  border: 2px solid black;
+  background-color: yellow;
+
+  /* border: 2px solid black; */
 }
 
 .footerNav {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
 }
 .aboutPageBody {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
 }
 
 @media (max-width: 700px) {
   body {
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .bodyHeader {
     width: 100%;
     padding: 16.4%;
-    border: 4px solid black;
+    /* border: 4px solid black; */
+  }
+
+  .bodyHeader p {
+    width: ;
+    font-size: 2rem;
   }
 
   .registration .image {
@@ -200,7 +262,7 @@ footer {
   }
 
   .registration .form {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 100%;
   }
@@ -210,13 +272,13 @@ footer {
   header {
     width: 100%;
     padding: 2rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     position: fixed;
     top: 0;
   }
 
   header h1 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
   }
 
@@ -229,18 +291,18 @@ footer {
   .bodyHeader {
     width: 100%;
     padding: 17%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .bodyHeader p {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     padding: 3rem;
   }
 
   .headerNav {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: flex-end;
     width: 83%;
@@ -248,21 +310,21 @@ footer {
   }
 
   ul {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     list-style-type: none;
     display: flex;
     flex-direction: column;
   }
 
   ul a {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     list-style-type: none;
   }
 
   .registration {
     width: 100%;
     height: 55rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
   }
@@ -282,11 +344,11 @@ footer {
   footer {
     width: 100%;
     padding: 2rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .footerNav {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
   }
 }
